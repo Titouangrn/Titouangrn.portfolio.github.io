@@ -1,0 +1,203 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: f9fafb;
+    color: #1f2937;
+    margin: 0;
+}
+
+
+/*Header*/
+header {
+    background: #163853;
+    color: white;
+    display: flex;
+    padding: auto;
+    justify-content:center;
+    align-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+nav{
+    display: flex;
+    align-items: center; 
+    gap: 2em; 
+    padding: 1em 2em;
+}
+nav a {
+    margin: 0 1em; 
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+
+/* Contenu page principale */
+
+#titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+#titre img{
+    width: 10em;
+    height :auto;
+    border-radius: 50%;
+}
+#titre h1{
+    display: flex;
+    justify-self: center;
+}
+
+section {
+    padding: 2em 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #163853;
+}
+
+#about{
+    gap: 1em;
+}
+
+.formation-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    background-color: #f3f4f6;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin: 1em 0 0 0;
+}
+.formation-card img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding-left: 1em;
+}
+.formation-info h4 {
+    margin: 0;
+    color: #163853;
+}
+.formation-info strong {
+    display: block;
+    margin-top: 0.2em;
+    color: #4b5563;
+}
+.formation-info p {
+    margin: 0.5em 0 0;
+    color: #374151;
+}
+
+
+
+#contact div{
+    display: flex;
+    flex-direction: column;
+}
+#contact div a{
+    color: #163853;
+}
+
+/*Contenu page Compétence */
+
+#titre_competence{
+    text-align: center;
+}
+
+
+
+.skills, .projects {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 0.5rem; 
+    align-items: stretch; 
+}
+
+
+.skills div {
+    background: #f3f4f6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 80%; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.button{
+    padding-top: auto;
+    padding-bottom: 2em;
+}
+
+
+.projects2 {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 0 1em; /* Ajout de padding pour garder un peu d'espace sur les bords */
+}
+
+.projects2 div {
+    background: #f3f4f6;
+    border-radius: 0.5rem;
+    padding: 1em;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Footer*/
+
+footer {
+    position: relative;
+    background: #163853;
+    color: #e5e7eb;
+    padding: 3rem 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#boutons_footer {
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 1rem;
+}
+
+#boutons_footer a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+    
+a.button {
+    display: inline-block;
+    color:#e5e7eb;
+    background-color: #163853;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
