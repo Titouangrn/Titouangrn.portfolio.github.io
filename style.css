@@ -156,6 +156,9 @@ h1, h2 {
     justify-content: center;
     text-align: center;
 }
+.projects2 div p{
+    justify-content: baseline;
+}
 
 
 
