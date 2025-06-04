@@ -157,7 +157,7 @@ h1, h2 {
     text-align: center;
 }
 .projects2 div p{
-    justify-content: baseline;
+    text-align: left;
 }
 
 
