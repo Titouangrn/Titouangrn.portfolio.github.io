@@ -158,6 +158,9 @@ h1, h2 {
 }
 .projects2 div p{
     text-align: left;
+    margin-left: 5em;
+    margin-right:5em;
+    text-justify: inter-word;
 }
 
 
